@@ -42,7 +42,7 @@ app.post('/user',(req,res)=>{
     users.push(newUser);
     res.send(newUser);
 });
-app.get('/users',(req,res)=>{
+app.get('/usersData',(req,res)=>{
     res.send(users);
 })
 app.get('/users/:id',(req,res)=>{
